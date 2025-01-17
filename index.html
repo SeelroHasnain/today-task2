@@ -1,13 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Complete Responsive Personal Portfolio Website HTML CSS Javascript | Codejah</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Swiper Js Link -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <h1>GITHUB0</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam vero commodi consectetur!</p>
+  <!-- header html design -->
+   <header>
+    <h1 class="logo-top">Jacob</h1>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <div class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#service">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
+   </header>
+
+   <!-- home section html -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi I'm Lucas Jacob</h1>
+            <h2>I am <span class="type-animation"></span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut assumenda cupiditate atque porro, quae, cumque, earum ad tenetur sint dolorum repellat! Sit, quod ullam, aliquam animi tempora voluptas dolorum in omnis expedita, est molestias accusantium.</p>
+
+            <div class="btn-group">
+                <button>Hire me</button>
+                <button>Let's talk</button>
+            </div>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Html Section  -->
+     <section class="about" id="about">
+        <div class="about-content">
+            <h1 class="heading">About <span>me!</span></h1>
+            <div class="about-img">
+                <img src="./images/about.jpg" alt="">
+                <div class="circle-spin"></div>
+            </div>
+            <h2 class="text-typing-about ">Frontend developer</h2>
+            <div class="text-about-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo quasi at corporis perspiciatis voluptatem molestiae itaque et maiores consectetur commodi atque maxime vero similique totam recusandae in, voluptates fugiat? Architecto dolore quasi natus veniam consectetur? Est autem vero hic sit, aliquam non impedit delectus.</p>
+                <button>Read more</button>
+            </div>
+        </div>
+     </section>
+
+    <!-- Services Section Design  -->
+     <section class="service" id="service">
+        <h1 class="heading">My <span>Service</span></h1>
+        <div class="service-content">
+            <div class="service-box">
+                <i class='bx bx-paint'></i>
+                <h2>Graphics designer</h2>
+                <p class="service-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nostrum minima ut eum vitae amet, porro commodi mollitia. Provident, alias.
+                </p>
+                <button>Read more</button>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-code-alt' ></i>
+                <h2>Web developer</h2>
+                <p class="service-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nostrum minima ut eum vitae amet, porro commodi mollitia. Provident, alias.
+                </p>
+                <button>Read more</button>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bxl-figma' ></i>
+                <h2>UI/UX designer</h2>
+                <p class="service-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nostrum minima ut eum vitae amet, porro commodi mollitia. Provident, alias.
+                </p>
+                <button>Read more</button>
+            </div>
+        </div>
+     </section>
+ 
+  <!-- ===== Portfolio design HTML===== -->
+   <section class="portfolio" id="portfolio">
+    <h1 class="heading">My <span>Portfolio</span></h1>
+    <div class="portfolio-content">
+        <div class="portfoli-box">
+            <img src="./images/portfolio1.jpg" alt="">
+            <div class="overlay">
+                <h4>Web design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aut dolore accusamus consectetur.</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="portfoli-box">
+            <img src="./images/portfolio2.jpg" alt="">
+            <div class="overlay">
+                <h4>Web development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aut dolore accusamus consectetur.</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="portfoli-box">
+            <img src="./images/portfolio3.jpg" alt="">
+            <div class="overlay">
+                <h4>Graphics design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aut dolore accusamus consectetur.</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+
+        <div class="portfoli-box">
+            <img src="./images/portfolio4.jpg" alt="">
+            <div class="overlay">
+                <h4>Marketing</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aut dolore accusamus consectetur.</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="portfoli-box">
+            <img src="./images/portfolio5.jpg" alt="">
+            <div class="overlay">
+                <h4>Cyber Sucurity</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aut dolore accusamus consectetur.</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="portfoli-box">
+            <img src="./images/portfolio6.jpg" alt="">
+            <div class="overlay">
+                <h4>UI/UX design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aut dolore accusamus consectetur.</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+    </div>
+   </section>
+
+  <section class="testimonial">
+    <h1 class="heading">Valuable <span>Testimonial</span> </h1>
+
+    <div class="slide-container swiper">
+        <div class="slider-wrapper">
+            <div class="slide-list swiper-wrapper">
+                <div class="slide-items swiper-slide">
+                    <div class="image-slide">
+                        <img src="./images/testimonial1.jpg" alt="">
+                        <div class="circle-spin"></div>
+                    </div>
+                    <h2>John paul</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit iste, illo ducimus quas perspiciatis rerum eum earum eveniet voluptatem.</p>
+                    <div class="slide-link">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-github' ></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    </div>
+                </div>
+
+                <div class="slide-items swiper-slide">
+                    <div class="image-slide">
+                        <img src="./images/testimonial2.jpg" alt="">
+                        <div class="circle-spin"></div>
+                    </div>
+                    <h2>Joy simon</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit iste, illo ducimus quas perspiciatis rerum eum earum eveniet voluptatem.</p>
+                    <div class="slide-link">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-github' ></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    </div>
+                </div>
+
+                <div class="slide-items swiper-slide">
+                    <div class="image-slide">
+                        <img src="./images/testimonial3.jpg" alt="">
+                        <div class="circle-spin"></div>
+                    </div>
+                    <h2>Alxender brown</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit iste, illo ducimus quas perspiciatis rerum eum earum eveniet voluptatem.</p>
+                    <div class="slide-link">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-github' ></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    </div>
+                </div>
+
+                <div class="slide-items swiper-slide">
+                    <div class="image-slide">
+                        <img src="./images/testimonial4.jfif" alt="">
+                        <div class="circle-spin"></div>
+                    </div>
+                    <h2>Courage stephen</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit iste, illo ducimus quas perspiciatis rerum eum earum eveniet voluptatem.</p>
+                    <div class="slide-link">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-github' ></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    </div>
+                </div>
+
+                <div class="slide-items swiper-slide">
+                    <div class="image-slide">
+                        <img src="./images/testimonial5.jfif" alt="">
+                        <div class="circle-spin"></div>
+                    </div>
+                    <h2>Abigail John</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit iste, illo ducimus quas perspiciatis rerum eum earum eveniet voluptatem.</p>
+                    <div class="slide-link">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-github' ></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    </div>
+                </div>
+
+                <div class="slide-items swiper-slide">
+                    <div class="image-slide">
+                        <img src="./images/testimonial6.jfif" alt="">
+                        <div class="circle-spin"></div>
+                    </div>
+                    <h2>James timothy</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit iste, illo ducimus quas perspiciatis rerum eum earum eveniet voluptatem.</p>
+                    <div class="slide-link">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-github' ></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    </div>
+                </div>
+
+                <div class="slide-items swiper-slide">
+                    <div class="image-slide">
+                        <img src="./images/testimonial7.jfif" alt="">
+                        <div class="circle-spin"></div>
+                    </div>
+                    <h2>William Henry</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit iste, illo ducimus quas perspiciatis rerum eum earum eveniet voluptatem.</p>
+                    <div class="slide-link">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-github' ></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    </div>
+                </div>
+            </div>
+                        <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+  </section>
+   <!-- Contact section HTML  -->
+    <section class="contact" id="contact">
+        <div class="left-section-details">
+            <h1 class="heading">Get in <span>touch</span></h1>
+            <div class="address-contact">
+                <div class="address-list">
+                    <span><i class='bx bx-map'></i></span>
+                    <p> Abuja, wusa zone 4. Nigeria</p>
+                </div>
+                <div class="address-list">
+                    <span><i class='bx bx-phone'></i></span>
+                    <p>+23478790875890</p>
+                </div>
+                <div class="address-list">
+                    <span><i class='bx bxs-envelope' ></i></span>
+                    <p> lucasjacob11@gmail.com</p>
+                </div>
+                <br>
+                <div class="slide-link">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-github' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h1 class="heading">Contact <span>Me!</span></h1>
+            <form action="">
+                <div class="input-feild">
+                    <input type="text" placeholder="Enter your name">
+                    <input type="text" placeholder="Enter your email">
+                </div>
+                <div class="input-feild">
+                    <input type="number" placeholder="Enter your phone no:">
+                    <input type="text" placeholder="Enter your Subject email">
+                </div>
+                <textarea  cols="30" placeholder="Text Message"></textarea>
+
+                <button>Send Message</button>
+            </form>
+        </div>
+    </section>
+   <!-- =================footer design =========== -->
+<footer>
+    <p class="footer-text">Copyright &copy; 2024 By Codejah | All Right Reserved</p>
+
+    <div class="footer-icon">
+        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+   
+    <!-- Swiper Js Link JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Typing Animation -->
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+  <!-- Scroll Reveal for web pages -->
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+ 
+    <script src="js/script.js"></script>
 </body>
+
 </html>
